@@ -1,6 +1,4 @@
-# ![Rim](./assets/banner.svg)
-
----
+# ![The Rim Programming Language](./assets/banner.svg)
 
 [![Build][build-badge]][build]
 [![Tests][tests-badge]][tests]
@@ -10,7 +8,7 @@
 
 ## Contents
 
-- [Rim](#)
+- [The Rim Programming Language](#)
   - [Contents](#contents)
   - [What is this?](#what-is-this)
   - [When should I use it?](#when-should-i-use-it)
