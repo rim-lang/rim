@@ -19,6 +19,10 @@
 
 ## Later
 
+- Tests
+- CI
+  - Github Actions
+  - app.codecov.io
 - Backend
   - LLVM or Cranelift
 - Formatter

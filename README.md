@@ -1,28 +1,50 @@
-# The Rim Programming Language
+# ![Rim](./assets/banner.svg)
 
-This is the main source code repository for [Rim]. It will the compiler,
-standard library, and documentation.
+---
 
-[rim]: https://www.todo.com
+[![Build][build-badge]][build]
+[![Tests][tests-badge]][tests]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][downloads]
+[![Chat][discord-badge]][discord]
 
-**Note: this README is for _users_ rather than _contributors_.
-If you wish to _contribute_ to the compiler, you should read the
-[Getting Started][gettingstarted] section of the rimc-dev-guide instead.**
+## Contents
+
+- [Rim](#)
+  - [Contents](#contents)
+  - [What is this?](#what-is-this)
+  - [When should I use it?](#when-should-i-use-it)
+  - [Quick Start](#quick-start)
+  - [Installing from Source](#installing-from-source)
+    - [Building on a Unix-like system](#building-on-a-unix-like-system)
+    - [Building on Windows](#building-on-windows)
+  - [Building Documentation](#building-documentation)
+  - [Getting Help](#getting-help)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## What is this?
+
+This is the main source code repository for [Rim][rim-website] (**R**eally **I**nteresting **M**ultifunctional Programming Language).
+
+It will contain the compiler, standard library, and documentation at some point ;).
+
+## When should I use it?
+
+**TODO**
 
 ## Quick Start
 
-Read ["Installation"] from [The Book].
-
-["installation"]: https://todo.com/book/ch01-01-installation.html
-[the book]: https://todo.com/book/index.html
+**TODO**
 
 ## Installing from Source
 
 ### Building on a Unix-like system
 
-1. Make sure you have installed the dependencies:
+1. Make sure you have installed these dependencies:
 
-   - ...deps todo
+   - **TODO**
+   - ...deps
 
 2. Clone the [source] with `git`:
 
@@ -33,52 +55,57 @@ Read ["Installation"] from [The Book].
 
 [source]: https://github.com/rim-lang/rim
 
-3. Build and install:
-
-   1. ...todo
-
-4. todo
+3. Build and install: **TODO**
 
 ### Building on Windows
 
-todo
+**TODO**
 
 ## Building Documentation
 
-If you’d like to build the documentation, it’s almost the same:
+**TODO**
 
 ```sh
 ./todo.sh
 ```
 
 The generated documentation will appear under `doc` in the `build` directory for
-the TODO!!! used
+the ...
+
+**TODO**
 
 ## Getting Help
 
-The Rim community congregates in a few places:
+The Rim community can be found in a few places:
 
-- [Stack Overflow] - Direct questions about using the language.
-- [users.todo.com] - General discussion and broader questions.
-- [/r/rim] - News and general discussion.
-
-[stack overflow]: https://stackoverflow.com/questions/tagged/todo
-[/r/rim]: https://reddit.com/r/rim
-[users.todo.com]: https://users.todo.com
+- its actually just me :(
+- Discord: [CreatorSiSo#3434][discord]
 
 ## Contributing
 
-If you are interested in contributing to the Rim project, please take a look
-at the [Getting Started][gettingstarted] guide in the [rimc-dev-guide].
-
-[rimc-dev-guide]: https://rimc-dev-guide.todo.com
+If you are interested in contributing to the Rim project, please take a look at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## License
 
-Rim is primarily distributed under the terms the MIT license.
+Rim is distributed under the terms of the MIT license.
 
-See [LICENSE-MIT](LICENSE-MIT), and [COPYRIGHT](COPYRIGHT) for details.
+See [LICENSE](LICENSE), and [COPYRIGHT](COPYRIGHT) for details.
 
-## Trademark
+<!-- Badge Links -->
 
-todo logos and so on
+[build]: https://github.com/rim-lang/rim/actions
+[build-badge]: https://img.shields.io/appveyor/build/rim-lang/rim?logo=github&logoColor=fff&style=for-the-badge
+[coverage]: todo
+[coverage-badge]: https://img.shields.io/codacy/coverage/todo?logo=codecov&logoColor=fff&style=for-the-badge
+[tests]: todo
+[tests-badge]: https://img.shields.io/appveyor/tests/rim-lang/rim/main?logo=github&logoColor=fff&style=for-the-badge
+[downloads]: todo
+[downloads-badge]: https://img.shields.io/github/downloads/rim-lang/rim/total?logo=github&logoColor=fff&style=for-the-badge
+[discord]: https://discord.com/users/628224045191528459
+[discord-badge]: https://img.shields.io/discord/689918873947996171?label=discord&logo=discord&logoColor=fff&style=for-the-badge
+
+<!-- Other Links -->
+
+[rim-website]: https://www.todo.com
+[getting-started]: https://docs.todo.com/getting-started
+[rimc-dev-guide]: https://rimc-dev-guide.todo.com
