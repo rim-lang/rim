@@ -1,0 +1,32 @@
+WHITESPACE = _{ " " | "\t" | NEWLINE }
+
+Bool = { "true" | "false" }
+
+Char = ${ "'" ~ CharInner ~ "'" }
+CharInner = @{ (!"'" ~ ANY)? }
+
+String = ${ "\"" ~ StringInner ~ "\"" }
+StringInner = @{ StringChar* }
+StringChar = {
+  !("\"" | "\\")
+  ~ ANY | "\\" ~ ("\"" | "\\" | "/")
+}
+
+Integer = { "-"? ~ ASCII_DIGIT+ }
+Float = @{
+  "-"?
+  ~ ("0" | ASCII_NONZERO_DIGIT ~ ASCII_DIGIT*)?
+  ~ ("." ~ ASCII_DIGIT*)
+}
+
+Value = { Bool | Float | Integer | Char | String }
+
+Modifier = { "mut" | "const" }
+
+NameChar = { ASCII_ALPHA | "_" }
+Name = @{ NameChar+ }
+
+Identifier = ${ Modifier ~ " " ~ Name }
+Variable = { Identifier ~ ("=" ~ Value)* }
+
+File = { SOI ~ (Variable ~ ";")* ~ EOI }
