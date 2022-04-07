@@ -1,1 +1,2 @@
-[workspaces]
+[workspace]
+members = ["compiler/rimc", "compiler/rimc_parser"]

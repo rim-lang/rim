@@ -1,5 +1,8 @@
+# Run rustfmt with this config (it should be picked up automatically).
 version = "Two"
 
+use_small_heuristics = "Max"
+merge_derives = false
 tab_spaces = 2
 
 ignore = []
