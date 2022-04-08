@@ -1,7 +1,6 @@
 # ![The Rim Programming Language](./assets/banner.svg)
 
-[![Build][build-badge]][build]
-[![Tests][tests-badge]][tests]
+[![CI][ci-badge]][ci]
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 [![Chat][discord-badge]][discord]
@@ -91,12 +90,10 @@ See [LICENSE](LICENSE), and [COPYRIGHT](COPYRIGHT) for details.
 
 <!-- Badge Links -->
 
-[build]: https://github.com/rim-lang/rim/actions
-[build-badge]: https://img.shields.io/appveyor/build/rim-lang/rim?logo=github&logoColor=fff&style=for-the-badge
+[ci]: https://github.com/rim-lang/rim/actions
+[ci-badge]: https://img.shields.io/github/workflow/status/rim-lang/rim/Rust?logo=github&logoColor=fff&style=for-the-badge
 [coverage]: todo
 [coverage-badge]: https://img.shields.io/codacy/coverage/todo?logo=codecov&logoColor=fff&style=for-the-badge
-[tests]: todo
-[tests-badge]: https://img.shields.io/appveyor/tests/rim-lang/rim/main?logo=github&logoColor=fff&style=for-the-badge
 [downloads]: todo
 [downloads-badge]: https://img.shields.io/github/downloads/rim-lang/rim/total?logo=github&logoColor=fff&style=for-the-badge
 [discord]: https://discord.com/users/628224045191528459
